@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-d$kx+@amibc2z2*rl=3y--@h^s2u4p4wjo5v=re0qa9si5&lob
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com', 'localhost', 'www.clini.co.uk', 'clini.co.uk']
+ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com', 'localhost', 'www.clini.co.uk', 'clini.co.uk', '.clini.co.uk']
 
 CSRF_TRUSTED_ORIGINS = ['https://www.clini.co.uk', 'https://clini.co.uk']
 
