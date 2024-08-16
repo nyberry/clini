@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Upload</title>
+    <link rel="stylesheet" href="{% static 'upload/styles.css' %}">
+</head>
+<body>
+    <div class="upload-area" id="uploadArea">
+        <h2>Drag & Drop your PDF here</h2>
+        <p>or click to select a file</p>
+        <input type="file" id="fileInput" accept="application/pdf" hidden>
+        <!-- CSRF Token -->
+        <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+    </div>
+
+    <p id="noFilesMessage" style="display: none;">No files uploaded</p>
+    <ul id="fileListContent"></ul>
+
+    <button id="clearButton">Clear All Files</button> 
+
+
+    <script src="{% static 'upload/script.js' %}"></script>
+</body>
+</html>

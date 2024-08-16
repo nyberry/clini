@@ -1,0 +1,21 @@
+/* upload/static/upload/styles.css */
+.upload-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.upload-area.drag-over {
+    border-color: #333;
+}
+
+#fileListContent {
+    list-style-type: none;
+    padding: 0;
+}
+
+#fileListContent li {
+    margin: 5px 0;
+}
