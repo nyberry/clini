@@ -127,7 +127,7 @@ STATICFILES_DIRS = [
 ]
 
 # Where static files will be collected (useful for deployment)
-STATIC_ROOT = BASE_DIR / "staticfiles"
+STATIC_ROOT = BASE_DIR / "static"
 
 # URL to use when referring to static files
 STATIC_URL = '/static/'
